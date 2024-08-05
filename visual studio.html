@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual studio clone</title>
+    <style>
+       body,h1,h2,p{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       }
+       .container{
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+       }
+       body{
+        font-family: Arial, sans-serif;
+        color: #333;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+       }
+       header{
+        background: #007ac0;
+        color: #fff;
+        padding: 40px 0;
+        text-align: center;
+       }
+       header h1{
+        margin-bottom: 10px;
+        font-size: 2.5em;
+       }
+       header p{
+        font-size: 1.2em;
+       }
+       .cta-button{
+        display:inline;
+        background: #fff;
+        color: #007ac0;
+        padding: 10px 10px;
+        border-radius: 5px;
+        text-align:none;
+        font-size: 1.2em;
+        margin-top: 20px; 
+        transition:background 0.3s,color 0.3s;
+       }
+     .cta-button:hover{
+        background: #3df4e5;
+        color: #fff;
+
+       }
+       main{
+        background: #fff;
+        padding: 40px 0;
+       }
+      .features{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+      .feature{
+        margin: 20px;
+        padding: 40px;
+        flex: 1 1 30%;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .feature h2{
+        margin-bottom: 10px;
+        font-size: 1.5em;
+      }
+      footer{
+        padding: 10px;
+        margin: 0;
+        background: #007ac0;
+        text-align: center;
+       
+      }
+
+      .feature p {
+        font-size: 1em;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div class="container">
+        <h1>Visual Studio Code</h1>
+        <p>The Code Editor redefined and optimized for building and debugging modern web and cloud applications.</p>
+       <br> <a href="#" class="cta-button">Download Now</a>
+    </div>
+    </header>
+    <main>
+         <section class="features">
+            <div class="container">
+                <div class="feature">
+                     <h2>Smart Code Completion</h2>
+                     <p>Get intelligent suggestions and autocomplete functionality as you type.</p>
+                </div>
+                <div class="feature">
+                    <h2>Debugging Tools</h2>
+                    <p>Debug code directly from the editor with powerful debugging features.</p>
+                </div>
+                <div class="feature">
+                    <h2>Extensions</h2>
+                    <p>Enhance your development experience with a wide range of extensions.</p>
+                </div>
+            </div>
+         </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy;2024 Visual Studio Code. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
